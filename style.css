@@ -460,8 +460,9 @@ hr{
         display: none;
     }
 }
-@media (max-width:900px) {
-    aside{
+@media (max-width:900px) 
+{
+     aside{
         display: none;
     }
     .badge{
@@ -473,13 +474,13 @@ hr{
     .album{
         display: none;
     }
-    .player img{
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* padding-left: 1rem; */
-        /* margin-left: 5rem; */
+    .player{
+        width: 100%;
     }
     .control{
         display: none;
+    }
+    .playericon{
+        align-items: center;
     }
 }
